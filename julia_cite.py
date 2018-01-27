@@ -1,4 +1,3 @@
-#!/bin/bash
 """Test Quotes for the julia child project."""
 
 from random import randint as rint
