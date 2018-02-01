@@ -13,5 +13,5 @@ def rand_cite(c):
     rand = rint(0, number)
     print(c[rand])
 
-if __name__ == '__main__':
-    rand_cite(citations)
+# if __name__ == '__main__':
+#     rand_cite(citations)

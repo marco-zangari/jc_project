@@ -3,9 +3,12 @@
 from julia_cite import rand_cite
 
 
-def command_line():
+def command_line(c):
     """Connection to the julia_cite module."""
-    print(julia_cite.rand_cite())
+    print(rand_cite(c))
 
 if __name__ == '__main__':
-    command_line()
+    quotes = ['A party without cake is just a meeting.',
+                'I was 32 when I started cooking; up until then, I just ate.',
+                'The only real stumbling block is fear of failure. In cooking you\'ve got to have a what-the-hell attitude.']
+    command_line(quotes)
